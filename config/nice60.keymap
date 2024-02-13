@@ -39,6 +39,15 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 5 14 15 16 17 18 28 29 30 31 32 41 42 43 44 45 53 54 55 19 33 46>;
         };
+
+        ss: smart_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SMART_SHIFT";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_SHIFT>, <&caps_word>;
+
+            tapping-term-ms = <200>;
+        };
     };
 
     combos {
@@ -111,7 +120,7 @@
 &gresc      &kp N1               &kp N2           &kp N3           &kp N4             &kp N5  &kp N6     &kp N7              &kp N8            &kp N9            &kp N0                        &kp MINUS      &kp EQUAL          &kp BSPC
 &kp TAB     &kp Q                &kp W            &kp E            &kp R              &kp T   &kp Y      &kp U               &kp I             &kp O             &kp P                         &kp LBKT       &kp RBKT           &kp BSLH
 &kp ESCAPE  &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml LEFT_SHIFT F  &kp G   &kp H      &hmr RIGHT_SHIFT J  &hmr RIGHT_GUI K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMICOLON  &kp SQT                           &kp RET
-&kp LSHFT   &kp Z                &kp X            &kp C            &kp V              &kp B   &kp N      &kp M               &kp COMMA         &kp DOT           &kp FSLH                                                        &kp RSHFT
+&ss         &kp Z                &kp X            &kp C            &kp V              &kp B   &kp N      &kp M               &kp COMMA         &kp DOT           &kp FSLH                                                        &ss
 &kp LCTRL   &kp LEFT_ALT                          &kp LEFT_GUI                                &kp SPACE                                                          &kp RIGHT_GUI                 &kp RIGHT_ALT  &kp RIGHT_CONTROL  &mo 1
             >;
         };
