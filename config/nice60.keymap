@@ -144,7 +144,7 @@
         colon_morph: colon_morph {
             compatible = "zmk,behavior-mod-morph";
             label = "COLON_MORPH";
-            bindings = <&kp RG(COLON)>, <&kp SEMICOLON>;
+            bindings = <&kp COLON>, <&kp SEMICOLON>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
