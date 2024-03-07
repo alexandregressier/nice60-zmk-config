@@ -250,5 +250,15 @@
 &bt BT_SEL 3  &trans              &trans                                       &rgb_ug RGB_TOG                                   &kp PSCRN  &trans   &kp DELETE  &trans
             >;
         };
+
+        vm {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp LC(LA(F))  &kp LC(LA(G))  &kp LC(LA(H))  &kp LC(LA(I))     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(E))  &kp LC(LA(A))  &kp LC(LA(B))  &kp LC(LA(C))  &kp LC(LA(D))     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans         &trans         &trans         &kp LC(LA(SEMI))  &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(N))  &kp LC(LA(J))  &kp LC(LA(K))  &kp LC(LA(L))  &kp LC(LA(M))                     &trans
+&trans  &trans          &trans                  &trans                                                      &trans            &trans  &trans  &trans
+            >;
+        };
     };
 };
