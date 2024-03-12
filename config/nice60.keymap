@@ -267,10 +267,10 @@
 
         vm {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp LC(LA(F))  &kp LC(LA(G))  &kp LC(LA(H))  &kp LC(LA(I))  &trans            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(E))  &kp LC(LA(A))  &kp LC(LA(B))  &kp LC(LA(C))  &kp LC(LA(D))  &trans            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(N))  &kp LC(LA(J))  &kp LC(LA(K))  &kp LC(LA(L))  &kp LC(LA(M))  &kp LC(LA(SEMI))          &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp LC(LA(O))  &kp LC(LA(P))  &kp LC(LA(Q))  &kp LC(LA(R))                            &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp LC(LA(I))  &kp LC(LA(F))  &kp LC(LA(G))  &kp LC(LA(H))  &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(E))  &kp LC(LA(D))  &kp LC(LA(A))  &kp LC(LA(B))  &kp LC(LA(C))  &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(N))  &kp LC(LA(M))  &kp LC(LA(J))  &kp LC(LA(K))  &kp LC(LA(L))  &kp LC(LA(SEMI))          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp LC(LA(R))  &kp LC(LA(O))  &kp LC(LA(P))  &kp LC(LA(Q))                            &trans
 &trans  &trans          &trans                  &trans                                                      &trans         &trans            &trans  &trans
             >;
         };
