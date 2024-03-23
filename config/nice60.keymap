@@ -224,6 +224,16 @@
             slow-release;
             require-prior-idle-ms = <150>;
         };
+
+        combo_ctrl_f5 {
+            bindings = <&kp LC(F5)>;
+            key-positions = <16 17 18>;
+        };
+
+        combo_ctrl_f6 {
+            bindings = <&kp LC(F6)>;
+            key-positions = <2 3 4>;
+        };
     };
 
     keymap {
