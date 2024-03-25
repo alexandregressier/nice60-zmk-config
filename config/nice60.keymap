@@ -55,7 +55,7 @@
             bindings = <&kp I>, <&kp UP_ARROW>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_RCTL)>;
         };
 
         j_morph: j_morph {
@@ -64,7 +64,7 @@
             bindings = <&kp J>, <&kp LEFT_ARROW>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_RCTL)>;
         };
 
         k_morph: k_morph {
@@ -73,7 +73,7 @@
             bindings = <&kp K>, <&kp DOWN>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_RCTL)>;
         };
 
         l_morph: l_morph {
@@ -82,7 +82,7 @@
             bindings = <&kp L>, <&kp RIGHT>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
+            mods = <(MOD_RCTL)>;
         };
 
         hmr_j: homerow_mods_right_j {
