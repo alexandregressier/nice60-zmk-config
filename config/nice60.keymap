@@ -182,8 +182,8 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_ctrl_f1 {
-            bindings = <&kp LC(F1)>;
+        combo_command_space {
+            bindings = <&kp LG(SPACE)>;
             key-positions = <35 36 37>;
             slow-release;
             require-prior-idle-ms = <150>;
