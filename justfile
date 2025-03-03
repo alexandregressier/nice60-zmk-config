@@ -28,3 +28,6 @@ build:
 
 clean:
 	rm -rf build/
+
+reformat:
+    dtsfmt config/nice60.keymap
