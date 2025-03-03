@@ -1,0 +1,12 @@
+# JetBrains IDEs
+.idea/
+
+# Python venv
+.venv/
+
+# West
+.west/
+build/
+/zephyr/
+/zmk/
+/modules/
