@@ -1,11 +1,6 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/rgb.h>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/reset.h>
-#include <dt-bindings/zmk/ext_power.h>
+#include "config.dtsi"
 
+// Make sure that there are no other imports, otherwise the config will be overwritten (e.g., behavior reconfigurations)
 / {
   keymap {
     compatible = "zmk,keymap";
