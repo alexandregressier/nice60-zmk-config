@@ -6,6 +6,8 @@
 #define HOST_OS 2
 #include "zmk-helpers/helper.h"
 
+#include "combos.dtsi"
+
 /* Layers */
 
 #define DEFAULT 0
