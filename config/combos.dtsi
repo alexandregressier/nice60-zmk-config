@@ -12,4 +12,4 @@
 #define COMBO_IDLE_MS 150 // Default: disabled
 
 ZMK_COMBO(escape_combo, &kp ESCAPE, 30 31, ALL, COMBO_TERM_MS, COMBO_IDLE_MS)
-ZMK_COMBO(return_combo, &kp RETURN, 36 37, ALL, COMBO_TERM_MS, COMBO_IDLE_MS)
+ZMK_COMBO(return_combo, &kp RETURN, 36 37, ALL, COMBO_TERM_MS)
