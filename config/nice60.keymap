@@ -11,7 +11,7 @@
         &ag_tab                &ag_q      &ag_w      &ag_e    &ag_r    &ag_t    &ag_y       &ag_u    &ag_i       &ag_o     &ag_p           &ag_left_bracket   &ag_right_bracket   &ag_backslash
         &ht_mo_kp NAV ESCAPE   &ag_a      &ag_s      &ag_d    &ag_f    &ag_g    &ag_h       &ag_j    &ag_k       &ag_l     &ag_semicolon   &ag_single_quote                       &ag_return
         &smart_shift           &ag_z      &ag_x      &ag_c    &ag_v    &ag_b    &ag_n       &ag_m    &ag_comma   &ag_dot   &ag_slash                                              &smart_shift
-        &kp LCTRL              &kp LALT   &kp LGUI                              &ag_space                                  &kp RGUI        &kp RALT           &kp RCTRL           &mo SYSTEM
+        &kp LCTRL              &kp LALT   &kp LGUI                              &ag_space                                  &kp LGUI        &kp LALT           &kp LCTRL           &mo SYSTEM
       >;
     };
     nav {
