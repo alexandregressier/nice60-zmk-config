@@ -35,6 +35,7 @@ KP_WITH_MOD_SEQUENCE(rgkp, RIGHT_GUI)
 /* Hold-Taps */
 
 MAKE_HOLD_TAP(ht_kp_kp, &kp, &kp)
+MAKE_HOLD_TAP(ht_kp_sk, &kp, &sk)
 MAKE_HOLD_TAP(ht_rgkp_kp, &rgkp, &kp)
 MAKE_HOLD_TAP(sht_rgkp_kp, &rgkp, &kp, 280) // s = slower
 
