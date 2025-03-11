@@ -7,11 +7,11 @@
 
     default {
       bindings = <
-        &kp GRAVE              &kp N1              &kp N2              &kp N3              &kp N4              &kp N5   &kp N6      &kp N7   &kp N8      &kp N9    &kp N0     &kp MINUS   &kp EQUAL   &kp BSPC
-        &kp TAB                &kp Q               &kp W               &kp E               &kp R               &kp T    &kp Y       &kp U    &kp I       &kp O     &kp P      &kp LBKT    &kp RBKT    &kp BSLH
-        &ht_mo_kp NAV ESCAPE   &ht_kp_kp LG(A) A   &kp S               &kp D               &kp F               &kp G    &kp H       &kp J    &kp K       &kp L     &kp SEMI   &kp SQT                 &kp RET
-        &smart_shift           &kp Z               &ht_kp_kp LG(X) X   &ht_kp_kp LG(C) C   &ht_kp_kp LG(V) V   &kp B    &kp N       &kp M    &kp COMMA   &kp DOT   &kp FSLH                           &smart_shift
-        &kp LCTRL              &kp LALT            &kp LGUI                                                             &kp SPACE                                  &kp RGUI   &kp RALT    &kp RCTRL   &mo SYSTEM
+        &ag_grave              &ag_n1     &ag_n2     &ag_n3   &ag_n4   &ag_n5   &ag_n6      &ag_n7   &ag_n8      &ag_n9    &ag_n0          &ag_minus          &ag_equal           &ag_backspace
+        &ag_tab                &ag_q      &ag_w      &ag_e    &ag_r    &ag_t    &ag_y       &ag_u    &ag_i       &ag_o     &ag_p           &ag_left_bracket   &ag_right_bracket   &ag_backslash
+        &ht_mo_kp NAV ESCAPE   &ag_a      &ag_s      &ag_d    &ag_f    &ag_g    &ag_h       &ag_j    &ag_k       &ag_l     &ag_semicolon   &ag_single_quote                       &ag_return
+        &smart_shift           &ag_z      &ag_x      &ag_c    &ag_v    &ag_b    &ag_n       &ag_m    &ag_comma   &ag_dot   &ag_slash                                              &smart_shift
+        &kp LCTRL              &kp LALT   &kp LGUI                              &ag_space                                  &kp RGUI        &kp RALT           &kp RCTRL           &mo SYSTEM
       >;
     };
     nav {

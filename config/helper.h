@@ -1,3 +1,23 @@
+/* KP_WITH_MOD_SEQUENCE */
+
+#if !defined KP_WITH_MOD_SEQUENCE_WAIT_MS
+	#define KP_WITH_MOD_SEQUENCE_WAIT_MS 25
+#endif
+#if !defined KP_WITH_MOD_SEQUENCE_TAP_MS
+	#define KP_WITH_MOD_SEQUENCE_TAP_MS 0
+#endif
+
+#define KP_WITH_MOD_SEQUENCE(NAME, MOD) \
+	ZMK_MACRO_ONE_PARAM(NAME, \
+		wait-ms = <KP_WITH_MOD_SEQUENCE_WAIT_MS>; \
+		tap-ms = <KP_WITH_MOD_SEQUENCE_TAP_MS>; \
+		bindings \
+		= <&macro_press &kp MOD> \
+		, <&macro_param_1to1> \
+		, <&macro_tap &kp MACRO_PLACEHOLDER> \
+		, <&macro_release &kp MOD>; \
+	)
+
 /* MAKE_HOLD_TAP */
 
 #if !defined MAKE_HOLD_TAP_TERM_MS
