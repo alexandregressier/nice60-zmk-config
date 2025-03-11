@@ -73,6 +73,11 @@ ZMK_MOD_MORPH(grave_morph,
 // 1
 ZMK_ADAPTIVE_KEY(ag_n1,
 	bindings = <&n1_morph>;
+	rg_n1 {
+		trigger-keys = <LG(N1) RG(N1) LG(N2) RG(N2) LG(N3) RG(N3) LG(N4) RG(N4) LG(N5) RG(N5) LG(N6) RG(N6) LG(N7) RG(N7) LG(N8) RG(N8) LG(N9) RG(N9) LG(N0) RG(N0)>;
+		bindings = <&rgkp N1>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(n1_morph,
 	bindings = <&ht_rgkp_kp N1 N1>, <&ht_rgkp_kp LS(N1) EXCLAMATION>;
@@ -81,6 +86,11 @@ ZMK_MOD_MORPH(n1_morph,
 // 2
 ZMK_ADAPTIVE_KEY(ag_n2,
 	bindings = <&n2_morph>;
+	rg_n2 {
+		trigger-keys = <LG(N1) RG(N1) LG(N2) RG(N2) LG(N3) RG(N3) LG(N4) RG(N4) LG(N5) RG(N5) LG(N6) RG(N6) LG(N7) RG(N7) LG(N8) RG(N8) LG(N9) RG(N9) LG(N0) RG(N0)>;
+		bindings = <&rgkp N2>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(n2_morph,
 	bindings = <&ht_rgkp_kp N2 N2>, <&ht_rgkp_kp LS(N2) AT_SIGN>;
@@ -89,6 +99,11 @@ ZMK_MOD_MORPH(n2_morph,
 // 3
 ZMK_ADAPTIVE_KEY(ag_n3,
 	bindings = <&n3_morph>;
+	rg_n3 {
+		trigger-keys = <LG(N1) RG(N1) LG(N2) RG(N2) LG(N3) RG(N3) LG(N4) RG(N4) LG(N5) RG(N5) LG(N6) RG(N6) LG(N7) RG(N7) LG(N8) RG(N8) LG(N9) RG(N9) LG(N0) RG(N0)>;
+		bindings = <&rgkp N3>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(n3_morph,
 	bindings = <&ht_rgkp_kp N3 N3>, <&ht_rgkp_kp LS(N3) HASH>;
@@ -97,6 +112,11 @@ ZMK_MOD_MORPH(n3_morph,
 // 4
 ZMK_ADAPTIVE_KEY(ag_n4,
 	bindings = <&n4_morph>;
+	rg_n4 {
+		trigger-keys = <LG(N1) RG(N1) LG(N2) RG(N2) LG(N3) RG(N3) LG(N4) RG(N4) LG(N5) RG(N5) LG(N6) RG(N6) LG(N7) RG(N7) LG(N8) RG(N8) LG(N9) RG(N9) LG(N0) RG(N0)>;
+		bindings = <&rgkp N4>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(n4_morph,
 	bindings = <&ht_rgkp_kp N4 N4>, <&ht_rgkp_kp LS(N4) DOLLAR>;
@@ -105,6 +125,11 @@ ZMK_MOD_MORPH(n4_morph,
 // 5
 ZMK_ADAPTIVE_KEY(ag_n5,
 	bindings = <&n5_morph>;
+	rg_n5 {
+		trigger-keys = <LG(N1) RG(N1) LG(N2) RG(N2) LG(N3) RG(N3) LG(N4) RG(N4) LG(N5) RG(N5) LG(N6) RG(N6) LG(N7) RG(N7) LG(N8) RG(N8) LG(N9) RG(N9) LG(N0) RG(N0)>;
+		bindings = <&rgkp N5>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(n5_morph,
 	bindings = <&ht_rgkp_kp N5 N5>, <&ht_rgkp_kp LS(N5) PERCENT>;
@@ -113,6 +138,11 @@ ZMK_MOD_MORPH(n5_morph,
 // 6
 ZMK_ADAPTIVE_KEY(ag_n6,
 	bindings = <&n6_morph>;
+	rg_n6 {
+		trigger-keys = <LG(N1) RG(N1) LG(N2) RG(N2) LG(N3) RG(N3) LG(N4) RG(N4) LG(N5) RG(N5) LG(N6) RG(N6) LG(N7) RG(N7) LG(N8) RG(N8) LG(N9) RG(N9) LG(N0) RG(N0)>;
+		bindings = <&rgkp N6>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(n6_morph,
 	bindings = <&ht_rgkp_kp N6 N6>, <&ht_rgkp_kp LS(N6) CARET>;
@@ -121,6 +151,11 @@ ZMK_MOD_MORPH(n6_morph,
 // 7
 ZMK_ADAPTIVE_KEY(ag_n7,
 	bindings = <&n7_morph>;
+	rg_n7 {
+		trigger-keys = <LG(N1) RG(N1) LG(N2) RG(N2) LG(N3) RG(N3) LG(N4) RG(N4) LG(N5) RG(N5) LG(N6) RG(N6) LG(N7) RG(N7) LG(N8) RG(N8) LG(N9) RG(N9) LG(N0) RG(N0)>;
+		bindings = <&rgkp N7>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(n7_morph,
 	bindings = <&ht_rgkp_kp N7 N7>, <&ht_rgkp_kp LS(N7) AMPERSAND>;
@@ -129,6 +164,11 @@ ZMK_MOD_MORPH(n7_morph,
 // 8
 ZMK_ADAPTIVE_KEY(ag_n8,
 	bindings = <&n8_morph>;
+	rg_n8 {
+		trigger-keys = <LG(N1) RG(N1) LG(N2) RG(N2) LG(N3) RG(N3) LG(N4) RG(N4) LG(N5) RG(N5) LG(N6) RG(N6) LG(N7) RG(N7) LG(N8) RG(N8) LG(N9) RG(N9) LG(N0) RG(N0)>;
+		bindings = <&rgkp N8>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(n8_morph,
 	bindings = <&ht_rgkp_kp N8 N8>, <&ht_rgkp_kp LS(N8) ASTERISK>;
@@ -137,6 +177,11 @@ ZMK_MOD_MORPH(n8_morph,
 // 9
 ZMK_ADAPTIVE_KEY(ag_n9,
 	bindings = <&n9_morph>;
+	rg_n9 {
+		trigger-keys = <LG(N1) RG(N1) LG(N2) RG(N2) LG(N3) RG(N3) LG(N4) RG(N4) LG(N5) RG(N5) LG(N6) RG(N6) LG(N7) RG(N7) LG(N8) RG(N8) LG(N9) RG(N9) LG(N0) RG(N0)>;
+		bindings = <&rgkp N9>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(n9_morph,
 	bindings = <&ht_rgkp_kp N9 N9>, <&ht_rgkp_kp LS(N9) LEFT_PARENTHESIS>;
@@ -145,6 +190,11 @@ ZMK_MOD_MORPH(n9_morph,
 // 0
 ZMK_ADAPTIVE_KEY(ag_n0,
 	bindings = <&n0_morph>;
+	rg_n0 {
+		trigger-keys = <LG(N1) RG(N1) LG(N2) RG(N2) LG(N3) RG(N3) LG(N4) RG(N4) LG(N5) RG(N5) LG(N6) RG(N6) LG(N7) RG(N7) LG(N8) RG(N8) LG(N9) RG(N9) LG(N0) RG(N0)>;
+		bindings = <&rgkp N0>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(n0_morph,
 	bindings = <&ht_rgkp_kp N0 N0>, <&ht_rgkp_kp LS(N0) RIGHT_PARENTHESIS>;
@@ -169,6 +219,11 @@ ZMK_MOD_MORPH(equal_morph,
 // Backspace
 ZMK_ADAPTIVE_KEY(ag_backspace,
 	bindings = <&backspace_morph>;
+	rg_backspace {
+		trigger-keys = <LG(BACKSPACE) RG(BACKSPACE)>;
+		bindings = <&rgkp BACKSPACE>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(backspace_morph,
 	bindings = <&ht_rgkp_kp BACKSPACE BACKSPACE>, <&ht_rgkp_kp LS(BACKSPACE) DELETE>;
@@ -186,6 +241,11 @@ ZMK_MOD_MORPH(tab_morph,
 // q
 ZMK_ADAPTIVE_KEY(ag_q,
 	bindings = <&q_morph>;
+	rg_q {
+		trigger-keys = <LG(Q) RG(Q) LG(W) RG(W)>;
+		bindings = <&rgkp Q>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(q_morph,
 	bindings = <&ht_rgkp_kp Q Q>, <&ht_rgkp_kp LS(Q) LS(Q)>;
@@ -194,6 +254,11 @@ ZMK_MOD_MORPH(q_morph,
 // w
 ZMK_ADAPTIVE_KEY(ag_w,
 	bindings = <&w_morph>;
+	rg_w {
+		trigger-keys = <LG(Q) RG(Q) LG(W) RG(W)>;
+		bindings = <&rgkp W>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(w_morph,
 	bindings = <&ht_rgkp_kp W W>, <&ht_rgkp_kp LS(W) LS(W)>;
@@ -315,6 +380,11 @@ ZMK_MOD_MORPH(d_morph,
 // f
 ZMK_ADAPTIVE_KEY(ag_f,
 	bindings = <&f_morph>;
+	rg_f {
+		trigger-keys = <LG(F) RG(F)>;
+		bindings = <&rgkp F>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(f_morph,
 	bindings = <&ht_rgkp_kp F F>, <&ht_rgkp_kp LS(F) LS(F)>;
@@ -388,6 +458,16 @@ ZMK_MOD_MORPH(return_morph,
 // z
 ZMK_ADAPTIVE_KEY(ag_z,
 	bindings = <&z_morph>;
+	rg_z {
+		trigger-keys = <LG(Z) RG(Z)>;
+		bindings = <&rgkp Z>;
+		strict-modifiers;
+	};
+	ls_rg_z {
+		trigger-keys = <LS(LG(Z)) LS(RG(Z))>;
+		bindings = <&rgkp LS(Z)>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(z_morph,
 	bindings = <&ht_rgkp_kp Z Z>, <&ht_rgkp_kp LS(Z) LS(Z)>;
@@ -396,6 +476,11 @@ ZMK_MOD_MORPH(z_morph,
 // x
 ZMK_ADAPTIVE_KEY(ag_x,
 	bindings = <&x_morph>;
+	rg_x {
+		trigger-keys = <LG(A) RG(A)>;
+		bindings = <&rgkp X>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(x_morph,
 	bindings = <&ht_rgkp_kp X X>, <&ht_rgkp_kp LS(X) LS(X)>;
@@ -404,6 +489,11 @@ ZMK_MOD_MORPH(x_morph,
 // c
 ZMK_ADAPTIVE_KEY(ag_c,
 	bindings = <&c_morph>;
+	rg_c {
+		trigger-keys = <LG(A) RG(A)>;
+		bindings = <&rgkp C>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(c_morph,
 	bindings = <&ht_rgkp_kp C C>, <&ht_rgkp_kp LS(C) LS(C)>;
@@ -412,6 +502,11 @@ ZMK_MOD_MORPH(c_morph,
 // v
 ZMK_ADAPTIVE_KEY(ag_v,
 	bindings = <&v_morph>;
+	rg_v {
+		trigger-keys = <LG(A) RG(A) LG(X) RG(X) LG(C) RG(C) LG(V) RG(V)>;
+		bindings = <&rgkp V>;
+		strict-modifiers;
+	};
 )
 ZMK_MOD_MORPH(v_morph,
 	bindings = <&ht_rgkp_kp V V>, <&ht_rgkp_kp LS(V) LS(V)>;
