@@ -36,6 +36,7 @@ KP_WITH_MOD_SEQUENCE(rgkp, RIGHT_GUI)
 
 MAKE_HOLD_TAP(ht_kp_kp, &kp, &kp)
 MAKE_HOLD_TAP(ht_rgkp_kp, &rgkp, &kp)
+MAKE_HOLD_TAP(sht_rgkp_kp, &rgkp, &kp, 280) // s = slower
 
 ZMK_HOLD_TAP(ht_mo_kp,
 	flavor = "balanced";
@@ -248,7 +249,7 @@ ZMK_ADAPTIVE_KEY(ag_q,
 	};
 )
 ZMK_MOD_MORPH(q_morph,
-	bindings = <&ht_rgkp_kp Q Q>, <&ht_rgkp_kp LS(Q) LS(Q)>;
+	bindings = <&sht_rgkp_kp Q Q>, <&sht_rgkp_kp LS(Q) LS(Q)>;
 	mods = <(MOD_LSFT)>;
 )
 // w
@@ -261,7 +262,7 @@ ZMK_ADAPTIVE_KEY(ag_w,
 	};
 )
 ZMK_MOD_MORPH(w_morph,
-	bindings = <&ht_rgkp_kp W W>, <&ht_rgkp_kp LS(W) LS(W)>;
+	bindings = <&sht_rgkp_kp W W>, <&sht_rgkp_kp LS(W) LS(W)>;
 	mods = <(MOD_LSFT)>;
 )
 // e
