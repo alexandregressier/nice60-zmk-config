@@ -382,11 +382,6 @@ ZMK_MOD_MORPH(d_morph,
 // f
 ZMK_ADAPTIVE_KEY(ag_f,
 	bindings = <&f_morph>;
-	rg_f {
-		trigger-keys = <LG(F) RG(F)>;
-		bindings = <&rgkp F>;
-		strict-modifiers;
-	};
 )
 ZMK_MOD_MORPH(f_morph,
 	bindings = <&ht_rgkp_kp F F>, <&ht_rgkp_kp LS(F) LS(F)>;
