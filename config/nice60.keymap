@@ -18,7 +18,7 @@
       bindings = <
         &trans        &trans   &trans   &trans   &trans   &trans   &trans     &trans     &trans   &trans      &trans   &trans   &trans   &trans
         &trans        &trans   &trans   &trans   &trans   &trans   &trans     &trans     &trans   &trans      &trans   &trans   &trans   &trans
-        &to DEFAULT   &trans   &trans   &trans   &trans   &trans   &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &trans   &trans            &trans
+        &to DEFAULT   &trans   &trans   &trans   &trans   &trans   &ag_left   &ag_down   &ag_up   &ag_right   &trans   &trans            &trans
         &trans        &trans   &trans   &trans   &trans   &trans   &trans     &trans     &trans   &trans      &trans                     &trans
         &trans        &trans   &trans                              &trans                                     &trans   &trans   &trans   &trans
       >;

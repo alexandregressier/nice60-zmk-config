@@ -571,3 +571,76 @@ ZMK_MOD_MORPH(space_morph,
 	bindings = <&ht_rgkp_kp SPACE SPACE>, <&ht_rgkp_kp LS(SPACE) LS(SPACE)>;
 	mods = <(MOD_LSFT)>;
 )
+
+// Left
+ZMK_ADAPTIVE_KEY(ag_left,
+	bindings = <&left_morph>;
+	left {
+		trigger-keys = <LEFT DOWN UP RIGHT>;
+		bindings = <&kp LEFT>;
+		strict-modifiers;
+	};
+	rg_left {
+		trigger-keys = <LG(LEFT) RG(LEFT) LG(DOWN) RG(DOWN) LG(UP) RG(UP) LG(RIGHT) RG(RIGHT)>;
+		bindings = <&rgkp LEFT>;
+		strict-modifiers;
+	};
+)
+ZMK_MOD_MORPH(left_morph,
+	bindings = <&ht_rgkp_kp LEFT LEFT>, <&ht_rgkp_kp LS(LEFT) LS(LEFT)>;
+	mods = <(MOD_LSFT)>;
+)
+// Down
+ZMK_ADAPTIVE_KEY(ag_down,
+	bindings = <&down_morph>;
+	down {
+		trigger-keys = <LEFT DOWN UP RIGHT>;
+		bindings = <&kp DOWN>;
+		strict-modifiers;
+	};
+	rg_down {
+		trigger-keys = <LG(LEFT) RG(LEFT) LG(DOWN) RG(DOWN) LG(UP) RG(UP) LG(RIGHT) RG(RIGHT)>;
+		bindings = <&rgkp DOWN>;
+		strict-modifiers;
+	};
+)
+ZMK_MOD_MORPH(down_morph,
+	bindings = <&ht_rgkp_kp DOWN DOWN>, <&ht_rgkp_kp LS(DOWN) LS(DOWN)>;
+	mods = <(MOD_LSFT)>;
+)
+// Up
+ZMK_ADAPTIVE_KEY(ag_up,
+	bindings = <&up_morph>;
+	up {
+		trigger-keys = <LEFT DOWN UP RIGHT>;
+		bindings = <&kp UP>;
+		strict-modifiers;
+	};
+	rg_up {
+		trigger-keys = <LG(LEFT) RG(LEFT) LG(DOWN) RG(DOWN) LG(UP) RG(UP) LG(RIGHT) RG(RIGHT)>;
+		bindings = <&rgkp UP>;
+		strict-modifiers;
+	};
+)
+ZMK_MOD_MORPH(up_morph,
+	bindings = <&ht_rgkp_kp UP UP>, <&ht_rgkp_kp LS(UP) LS(UP)>;
+	mods = <(MOD_LSFT)>;
+)
+// Right
+ZMK_ADAPTIVE_KEY(ag_right,
+	bindings = <&right_morph>;
+	right {
+		trigger-keys = <LEFT DOWN UP RIGHT>;
+		bindings = <&kp RIGHT>;
+		strict-modifiers;
+	};
+	rg_right {
+		trigger-keys = <LG(LEFT) RG(LEFT) LG(DOWN) RG(DOWN) LG(UP) RG(UP) LG(RIGHT) RG(RIGHT)>;
+		bindings = <&rgkp RIGHT>;
+		strict-modifiers;
+	};
+)
+ZMK_MOD_MORPH(right_morph,
+	bindings = <&ht_rgkp_kp RIGHT RIGHT>, <&ht_rgkp_kp LS(RIGHT) LS(RIGHT)>;
+	mods = <(MOD_LSFT)>;
+)
